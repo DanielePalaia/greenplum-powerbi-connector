@@ -237,9 +237,9 @@ Greenplum_ODBC_DirectConnect = [
     TestConnection = (dataSourcePath) => 
         let
             json = Json.Document(dataSourcePath),
-            server = json[server]   // name of function parameter
+            server = json[dsn]   // name of function parameter
         in
-            { "SqlODBC.Contents", server },
+            { "Greenplum_ODBC_DirectConnect.Contents", server },
     // Set supported types of authentication
     Authentication = [
         Windows = [],
