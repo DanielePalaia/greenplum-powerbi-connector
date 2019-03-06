@@ -12,7 +12,7 @@ Then configure a DSN ODBC in your windows machine
 
 Then copy the .mez plugin file from /bin/debug/Greenplum_ODBC_DirectConnect.mez </br>
 to</br>
-C:\Users\Daniele\Documents\Power BI Desktop\Custom Connectors</br>
+\Documents\Power BI Desktop\Custom Connectors</br>
 
 Restart PowerBI and you should see it when deciding to import the data (follow then the usual procedure to import data in direct mode putting as first step the dns configured).
 </br></br>
