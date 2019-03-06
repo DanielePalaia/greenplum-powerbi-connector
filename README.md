@@ -15,7 +15,7 @@ to</br>
 C:\Users\Daniele\Documents\Power BI Desktop\Custom Connectors</br>
 
 Restart PowerBI and you should see it when deciding to import the data (follow then the usual procedure to import data in direct mode putting as first step the dns configured).
-</br>
+</br></br>
 it may be necessary to configure Powerbi to enable no certified connectors before (something needs to be modify in the security section of powerbi to enable no certified connectors)</br>
 
 </br>
